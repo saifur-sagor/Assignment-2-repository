@@ -1,0 +1,83 @@
+/* @import "tailwindcss"; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.paragraph {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar img {
+  width: 130px;
+  height: 65px;
+}
+
+.navbar {
+  width: 1140px;
+  height: 70px;
+  border: 1px solid gold;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.nav-item a {
+  text-decoration: none;
+}
+.home-item {
+  color: #252432;
+  font-weight: bold;
+}
+.shop-item {
+  color: #8987a1;
+}
+.icon {
+  color: #000000;
+}
+
+.banner {
+  width: 1140px;
+  height: 460px;
+  margin: 0 auto;
+  border: 1px solid greenyellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.banner-left {
+  width: 570px;
+  height: 300px;
+}
+.banner-left h1 {
+  font-size: 65px;
+  font-weight: bold;
+  color: #000000;
+}
+span {
+  color: #e95a08;
+}
+.banner-right {
+  width: 570px;
+  height: 355px;
+}
+.plants-section {
+  width: 1140px;
+  height: 130px;
+  border: 1px solid #e95a08;
+  margin: 0 auto;
+  text-align: center;
+}
+.plants-section h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+}
