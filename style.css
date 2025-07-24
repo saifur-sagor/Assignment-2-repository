@@ -171,7 +171,94 @@ span {
   font-size: 22px;
   font-weight: 400;
 }
+/* latest-deals */
+.deals {
+  width: 1400px;
+  height: 138px;
+  text-align: center;
+}
+.deals h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+}
+/* challenge-part */
+
+.challenge {
+  width: 1140px;
+  height: 420px;
+  margin: 10px auto;
+  display: flex;
+  gap: 20px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 367px;
+  height: 100%;
+}
+
+.left-top {
+  background-image: url(assets/deal-bloom.png);
+  height: 50%;
+  border-radius: 12px;
+}
+
+.left-buttom {
+  background-image: url(assets/deal-ana.png);
+  height: 50%;
+  border-radius: 12px;
+}
+
+.right-side {
+  background-image: url(assets/deal-zabo.png);
+  width: 753px;
+  height: 100%;
+  border-radius: 12px;
+}
+.text-box {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left-top h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.left-buttom h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.right-side h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.right-side a {
+  font-size: 28px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.text-box a {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  text-decoration: underline;
+}
 /* form-section */
+
 .join-bounch {
   width: 1400px;
   height: 500px;
@@ -199,6 +286,7 @@ span {
   width: 180px;
   height: 40px;
   font-weight: 600;
+  margin-left: -4px;
   border: none;
   background-color: #e95a08;
 }
@@ -225,6 +313,7 @@ footer {
 .logo-right {
   width: 215px;
   height: 35px;
+  margin-top: -95px;
   display: flex;
   justify-content: space-between;
   gap: 10px;
