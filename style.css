@@ -171,3 +171,34 @@ span {
   font-size: 22px;
   font-weight: 400;
 }
+/* form-section */
+.join-bounch {
+  width: 1400px;
+  height: 500px;
+  margin: 20px auto;
+  background-image: url(assets/news-letter-bg.png);
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.join-bounch h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.join-content input {
+  background-color: #ffffff;
+  width: 600px;
+  height: 40px;
+  outline: none;
+}
+.join-content button {
+  width: 180px;
+  height: 40px;
+  font-weight: 600;
+  border: none;
+  background-color: #e95a08;
+}
